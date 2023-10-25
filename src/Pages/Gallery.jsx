@@ -4,7 +4,7 @@ import Images from '../Components/Images'
 
 function Gallery() {
   return (
-    <div>
+    <div className='bg-bn-navy h-full'>
       <Navbar />
       <Images />
     </div>

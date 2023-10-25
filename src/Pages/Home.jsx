@@ -3,13 +3,15 @@ import Navbar from '../Components/Navbar';
 import ReactPlayer from 'react-player';
 import video from '../assets/video.mp4';
 import Hero from '../Components/Hero';
+import About from '../Components/About';
+import Review from '../Components/Review';
 
 function Home() {
   return (
-    <div>
+    <div className='bg-bn-navy h-full'>
       <Navbar />
       
-      <div className=" ">
+      <div className="bg-bn-navy">
         <ReactPlayer
           url={video}
           playing={true}
@@ -21,9 +23,15 @@ function Home() {
         />
         <Hero />
       </div>
+
+      {/* Additional content */}
+      <div className='bg-bn-navy h-full'>
+
+        <About />
+        <Review />
+      </div>
     </div>
   );
 }
 
 export default Home;
-

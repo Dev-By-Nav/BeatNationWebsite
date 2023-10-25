@@ -4,7 +4,7 @@ import Form from '../Components/Form'
 
 function Contact() {
   return (
-    <div>
+    <div className='bg-bn-navy h-screen'>
       <Navbar />
       <Form />
     </div>

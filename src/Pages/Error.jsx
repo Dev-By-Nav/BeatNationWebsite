@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 
 function Error() {
   return (
-    <div>
+    <div className='bg-bn-navy h-screen'>
       <Navbar />
     </div>
   )

@@ -4,7 +4,7 @@ import Cards from '../Components/Cards'
 
 function Services() {
   return (
-    <div>
+    <div className='bg-bn-navy h-full w-full'>
       <Navbar />
       <Cards />
     </div>
