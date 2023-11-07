@@ -5,6 +5,7 @@ import video from '../assets/video.mp4';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
 import Review from '../Components/Review';
+import Footer from '../Components/Footer';
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
 
         <About />
         <Review />
+        <Footer />
       </div>
     </div>
   );

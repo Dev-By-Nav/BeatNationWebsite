@@ -11,6 +11,7 @@ import img5 from '../../assets/Gallery/image5.jpeg';
 import img6 from '../../assets/Gallery/image6.jpeg';
 import img7 from '../../assets/Gallery/image7.jpeg';
 import img8 from '../../assets/Gallery/image8.jpeg';
+import Footer from '../../Components/Footer';
 
 function Dj3() {
   return (
@@ -67,7 +68,7 @@ function Dj3() {
           <img src={img8} alt="" className="h-44 w-1/2 md:w-1/4 p-2 hover:scale-[1.03]" />
         </div>
 
-
+        <Footer />
       </div>
     </div>
   );
