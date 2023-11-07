@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
 import video from '../../assets/video.mp4';
+import package2img from '../../assets/Packages/package2.jpg'
 import img1 from '../../assets/Gallery/image1.jpeg';
 import img2 from '../../assets/Gallery/image2.jpeg';
 import img3 from '../../assets/Gallery/image3.jpeg';
@@ -21,15 +22,7 @@ function Dj2() {
 
       <div className='flex justify-center'>
 
-        <ReactPlayer
-          url={video}
-          playing={true}
-          loop={true}
-          muted={true}
-          width="75%"
-          height="75%"
-          className="video-background"
-        />
+      <img src={package2img} alt="" className="w-full h-auto px-20" />
       </div>
 
       
@@ -37,19 +30,26 @@ function Dj2() {
           <h1 className="text-2xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">What's Included</h1>
 
           <div className="flex flex-col items-center md:flex-row md:justify-center">
-            <img src={img3} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
+            <img src={package2img} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
 
             <ul className='text-white text-left'>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced DJ</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced Host</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Professional Sound System</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Turntables & Mixer</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Computer Controlled Moving Lights</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Gloss Pillars</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">6x Computer Controlled Moving Lights</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Chrome Truss Pillars</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Truss Covers</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Haze Machine (Dependent on Venue Allowance)</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">DJ Booth with Initals</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Wireless Microphone</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">6 x 2m LED Video Screen</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">2 x 2.5m Side Returns</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">12 x 6 x 1ft Dressed DJ Stage</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Confetti Blast</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">£10m Public Liability Insurance</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">PAT Testing Certificate</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Tailored Music for your Event Stage (Optional Extra)</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Tailored Music for your Event Stage</li>
             </ul>
           </div>
         </div>

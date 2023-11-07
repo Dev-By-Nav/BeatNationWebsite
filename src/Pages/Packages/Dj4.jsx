@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
 import video from '../../assets/video.mp4';
+import package4img from '../../assets/Packages/package4.jpg'
 import img1 from '../../assets/Gallery/image1.jpeg';
 import img2 from '../../assets/Gallery/image2.jpeg';
 import img3 from '../../assets/Gallery/image3.jpeg';
@@ -10,6 +11,7 @@ import img5 from '../../assets/Gallery/image5.jpeg';
 import img6 from '../../assets/Gallery/image6.jpeg';
 import img7 from '../../assets/Gallery/image7.jpeg';
 import img8 from '../../assets/Gallery/image8.jpeg';
+import img24 from '../../assets/Gallery/image24.jpeg'
 
 function Dj4() {
   return (
@@ -21,7 +23,7 @@ function Dj4() {
 
       <div className='flex justify-center'>
 
-        <ReactPlayer
+        {/* <ReactPlayer
           url={video}
           playing={true}
           loop={true}
@@ -29,7 +31,9 @@ function Dj4() {
           width="75%"
           height="75%"
           className="video-background"
-        />
+        /> */}
+
+        <img src={package4img} alt="" className="w-full h-auto px-20" />
       </div>
 
       
@@ -37,7 +41,7 @@ function Dj4() {
           <h1 className="text-2xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">What's Included</h1>
 
           <div className="flex flex-col items-center md:flex-row md:justify-center">
-            <img src={img3} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
+            <img src={package4img} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
 
             <ul className='text-white text-left'>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced DJ</li>
@@ -45,7 +49,10 @@ function Dj4() {
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Professional Sound System</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Turntables & Mixer</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Computer Controlled Moving Lights</li>
-              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Gloss Pillars</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Chrome Truss Pillars</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">4x Truss Covers Pillars</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Bespoke Printed DJ Booth</li>
+              <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">6 x 4m Backdrop (If Required)</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Haze Machine (Dependent on Venue Allowance)</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">£10m Public Liability Insurance</li>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">PAT Testing Certificate</li>

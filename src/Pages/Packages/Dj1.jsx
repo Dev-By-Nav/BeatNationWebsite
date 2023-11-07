@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar';
 import ReactPlayer from 'react-player';
 import video from '../../assets/video.mp4';
+import package1img from '../../assets/Packages/package1.jpg'
 import img1 from '../../assets/Gallery/image1.jpeg';
 import img2 from '../../assets/Gallery/image2.jpeg';
 import img3 from '../../assets/Gallery/image3.jpeg';
@@ -21,15 +22,7 @@ function Dj1() {
 
       <div className='flex justify-center'>
 
-        <ReactPlayer
-          url={video}
-          playing={true}
-          loop={true}
-          muted={true}
-          width="75%"
-          height="75%"
-          className="video-background"
-        />
+      <img src={package1img} alt="" className="w-full h-auto px-20" />
       </div>
 
       
@@ -37,7 +30,7 @@ function Dj1() {
           <h1 className="text-2xl font-bold mb-4 mt-0 text-bn-gold font-montserrat">What's Included</h1>
 
           <div className="flex flex-col items-center md:flex-row md:justify-center">
-            <img src={img3} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
+            <img src={package1img} alt="" className="h-96 w-96 mb-8 md:mb-0 md:mr-8" />
 
             <ul className='text-white text-left'>
               <li className="py-2 border-b mx-10 mt-3 font-medium font-raleway">Experienced DJ</li>
