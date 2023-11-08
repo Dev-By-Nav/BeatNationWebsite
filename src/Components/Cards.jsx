@@ -27,9 +27,9 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to='/package4'>
+      <Link to='/package2'>
         <div className="text-center py-10 hover:scale-105">
-          <img src={package4img} alt="" className="w-full max-w-[300px] h-[200px] mx-auto" />
+          <img src={package2img} alt="" className="w-full max-w-[300px] h-[200px] mx-auto" />
 
           <div className=" py-3 mx-auto">
             <p className='text-bn-gold text-xl font-semibold font-montserrat'>Silver</p>
@@ -49,9 +49,9 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to='/package2'>
+      <Link to='/package4'>
         <div className="text-center py-10 hover:scale-105">
-          <img src={package2img} alt="" className="w-full max-w-[300px] h-[200px] mx-auto" />
+          <img src={package4img} alt="" className="w-full max-w-[300px] h-[200px] mx-auto" />
 
           <div className=" py-3 mx-auto">
             <p className='text-bn-gold text-xl font-semibold font-montserrat'>Platinum</p>
