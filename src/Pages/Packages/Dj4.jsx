@@ -72,16 +72,7 @@ function Dj4() {
 
 
       <div className='flex flex-col pt-10'>
-      <div className="flex flex-wrap justify-center">
-  <img src={img1} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img2} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img3} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img4} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img5} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img6} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img7} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-  <img src={img8} alt="" className="h-auto w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 hover:scale-[1.03]" />
-</div>
+      
 
 
         <Footer />
